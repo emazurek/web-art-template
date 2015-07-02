@@ -45,7 +45,7 @@
 
   function drawOne() {
     obj[i] = new createjs.Shape();
-    obj[i].mycolor = 'rgb(0,0,0)';
+    obj[i].mycolor = 'rgb(0,255,0)';
     obj[i].graphics.beginFill(obj[i].mycolor).drawRect(0, 0, tw, th).endFill();
     container.addChild(obj[i]);
     i++;
